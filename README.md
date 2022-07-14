@@ -2,7 +2,7 @@
 
 ![View 1](https://github.com/vpganh/path-findding-car-using-sensors/blob/main/image1.PNG?raw=true)
 ![View 2](https://github.com/vpganh/path-findding-car-using-sensors/blob/main/image2.PNG?raw=true)
-![Link video](https://drive.google.com/file/d/1MODMzKIm5_2t4zhwP0Wib31_a-ZyUed7/view?usp=sharing)
+Link video: https://drive.google.com/file/d/1MODMzKIm5_2t4zhwP0Wib31_a-ZyUed7/view?usp=sharing
 
 ## Linh kiện chính
 - Arduino Uno 3
@@ -17,5 +17,10 @@
 ## Cài đặt phần mềm
 - Tải Arduino IDE 
 - Upload file `source-code.ino` vào arduno
+
+## Lưu ý
+- Nên sử dụng sàn sáng màu và băng dính đen để vẽ đường
+- Chú ý đến nhiệt độ của module khi chạy trong thời gian dài
+- Điều chính tốc độ bằng cách thay đổi giá trị `delay` trong hàm `goStraight()`.
 
 
